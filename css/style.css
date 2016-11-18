@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+main {
+	width: 300px;
+	height: 400px;
+	background-color: #005580;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+article.formulario {
+	text-align: center;
+	position: relative;
+}
+
+.formulario span.ion-ios-body-outline {
+	font-size: 100px;
+	color: cyan;
+	margin: 20px 0 0;
+}
+
+.formulario span.ion-ios-email-outline {
+	color: cyan;
+	font-size: 30px;
+}
+
+.formulario span.ion-ios-locked-outline {
+	color: cyan;
+	font-size: 30px;
+}
+
+.formulario div {
+	padding: 5px 5px;
+	border-bottom: 1px solid cyan;
+	width: 55%;
+	margin: 20px auto;
+}
+
+.formulario input {
+	border: none;
+	background: transparent;
+}
+
+::-webkit-input-placeholder {
+	color: cyan;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.formulario input.btn-enviar {
+	color: white;
+	background-color: #00a3cc;
+	padding: 15px 60px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-size: 17px;
+	margin: 15px 0;
+}
+
+.formulario ul {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+
+
+.formulario ul li {
+	text-transform: uppercase;
+	font-size: 'Lato', sans-serif;
+	background-color: #007399;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
